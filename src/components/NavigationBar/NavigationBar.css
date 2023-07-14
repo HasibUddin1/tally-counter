@@ -1,0 +1,13 @@
+.nav-container{
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    background-color: lightgray;
+    padding: 20px 40px;
+}
+.nav-container a{
+    text-decoration: none;
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+}
