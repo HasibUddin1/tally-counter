@@ -1,8 +1,8 @@
-.count-container{
+.count-container {
     padding: 50px;
 }
 
-.tally-counter-container{
+.tally-counter-container {
     border: 2px solid;
     padding: 20px;
     border-radius: 12px;
@@ -10,7 +10,7 @@
     text-align: center;
 }
 
-.button-add{
+.button-add {
     border: none;
     background-color: chartreuse;
     padding: 6px 12px;
@@ -21,11 +21,11 @@
     margin: 5px 10px;
 }
 
-.button-add:hover{
+.button-add:hover {
     background-color: green;
 }
 
-.button-reduce{
+.button-reduce {
     border: none;
     background-color: crimson;
     padding: 6px 12px;
@@ -35,16 +35,16 @@
     cursor: pointer;
 }
 
-.button-reduce:hover{
+.button-reduce:hover {
     background-color: brown;
 }
 
-.d-block{
+.d-block {
     display: block;
     margin-top: 5px;
 }
 
-.button-start-value{
+.button-start-value {
     border: none;
     background-color: chartreuse;
     padding: 6px 12px;
@@ -55,20 +55,20 @@
     margin-top: 5px;
 }
 
-.button-start-value:hover{
+.button-start-value:hover {
     background-color: green;
 }
 
-.value-input{
+.value-input {
     border-radius: 12px;
     padding: 6px 10px;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.button-reset{
+.button-reset {
     border: none;
     background-color: aqua;
     padding: 6px 12px;
@@ -79,6 +79,27 @@
     margin: 5px 10px;
 }
 
-.button-reset:hover{
+.button-reset:hover {
     background-color: darkturquoise;
+}
+
+.counter-name-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.button-counter-name {
+    border: none;
+    background-color: chartreuse;
+    padding: 6px 12px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.button-counter-name:hover{
+    background-color: green;
 }
