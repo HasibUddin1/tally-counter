@@ -57,6 +57,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <button className="button-add-counter">Add Counter</button>
         </div>
     );
 };
