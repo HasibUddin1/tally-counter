@@ -1,9 +1,14 @@
+import { useSelector } from "react-redux";
+import './Home.css'
 
 
 const Home = () => {
+
+    const count = useSelector(state => state.count)
+
     return (
-        <div>
-            <h1>This is Home component</h1>
+        <div className="count-container">
+            <h1 className="count">Count: {count}</h1>
         </div>
     );
 };

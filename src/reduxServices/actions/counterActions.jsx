@@ -1,4 +1,4 @@
-import { DECREMENT, INCREMENT, RESET } from "../constants/counterConstants"
+import { DECREMENT, INCREMENT, RESET, SET } from "../constants/counterConstants"
 
 
 export const incrementCounter = () => {
@@ -16,5 +16,12 @@ export const decrementCounter = () => {
 export const resetCounter = () => {
     return {
         type: RESET
+    }
+}
+
+export const setCounter = (value) => {
+    return {
+        type: SET,
+        payload: value
     }
 }
