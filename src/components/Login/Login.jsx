@@ -25,6 +25,7 @@ const Login = () => {
 
     return (
         <div className='login-container'>
+            <h1 className='text-center'>Login Now</h1>
             <form onSubmit={handleLogin}>
                 <div className="flex-col mt-5">
                     <label htmlFor="email">Email</label>

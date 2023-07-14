@@ -25,6 +25,7 @@ const Register = () => {
 
     return (
         <div className='login-container'>
+            <h1 className='text-center'>Register Now</h1>
             <form onSubmit={handleRegister}>
                 <div className="flex-col mt-5">
                     <label htmlFor="email">Email</label>
